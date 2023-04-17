@@ -1,3 +1,17 @@
+int addThreeValues({
+  int first,
+  int second,
+  int third,
+}) {
+  return first + second + third;
+}
+
 void main() {
-  print("Hello World!");
+  final sum = addThreeValues(
+    first: 2,
+    second: 5,
+    third: 3,
+  );
+
+  print(sum);
 }
