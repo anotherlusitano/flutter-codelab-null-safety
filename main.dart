@@ -1,3 +1,5 @@
 void main() {
-  print("Hello World!");
+  int a;
+  a = null;
+  print('a is $a.');
 }
