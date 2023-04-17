@@ -1,3 +1,13 @@
+class Meal {
+  String description;
+
+  void setDescription(String str) {
+    description = str;
+  }
+}
+
 void main() {
-  print("Hello World!");
+  final myMeal = Meal();
+  myMeal.setDescription('Feijoada!');
+  print(myMeal.description);
 }
