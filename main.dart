@@ -1,5 +1,5 @@
 void main() {
   int a;
-  a = null;
+  a = 123456789;
   print('a is $a.');
 }
